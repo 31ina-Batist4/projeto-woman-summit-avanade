@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #fc8c02!important;
+   
+  }
+  .div-nav-m{
+    display: flex;
+    display:  -webkit-flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .div-nav {
+    background-color: -webkit-linear-gradient(bottom, #fc8c02, #eb550a);
+background: -moz-linear-gradient(bottom, #fc8c02, #eb550a);
+background: -ms-linear-gradient(bottom, #fc8c02, #eb550a);
+background: -o-linear-gradient(bottom, #fc8c02, #eb550a);
+background: linear-gradient(to top, #fc8c02, #eb550a);
+border-bottom: 2px rgb(252, 161, 63) solid;
+margin-bottom: 3rem;  
+}
+  .big-img-container {
+    padding: 0 0;
+    width: 40%;
+    display: flex;
+    display:  -webkit-flex;
+    justify-content: left;
+    align-items: center;
+    
+  }
+  
+  @media (min-width: 768px) {
+    .big-img-container {
+      padding: 0 0;
+    }
+  }
+  .big-img {
+    width: 40%;
+    display: flex;
+    display:  -webkit-flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .nav-brand {
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white!important;
+    letter-spacing: 1px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 4px;
+  }
+  
+  @media (min-width: 768px) {
+    .nav-brand {
+      font-size: 1.8rem;
+    
+    }
+  }
+  @media (min-width: 992px) {
+    .nav-brand {
+      font-size: 2.1rem;
+      letter-spacing: 2px;
+    }
+  }
+  .assento {
+    font-size: 1.2rem;
+    color: #eb550a;
+  }
+  
+  .assento-cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 0;
+  }
+  
+  .looking-for-assento {
+    font-size: 2.5rem;
+    color: white;
+  }
+  
+  .book-table-btn {
+    font-size: 1.8rem;
+    font-weight: 600;
+    border-radius: 10px!important;
+    color: #f48d10!important;
+    background-color: white!important;
+    border: 2px solid#f48d10!important;
+  }
+  .book-table-btn:hover {
+    letter-spacing: 3px;
+    font-weight: 600;
+    background-color:white!important;
+    border: 2px  #f48d10 solid!important;
+    color: #f48d10!important;
+  }
+  
+  @media (min-width: 768px) {
+    .book-table-btn {
+      font-size: 1.4rem;
+    }
+  }
+  
+  .selected-table {
+    font-size: 1.25rem;
+    padding-bottom: 2%;
+  }
+  
+  input[type=date]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    display: none;
+  }
+  
+  input[type=date]::-webkit-calendar-picker-indicator {
+    -webkit-appearance: none;
+    display: none;
+  }
+  
+  .booking-dropdown {
+    width: 85%;
+    padding: 4% 0;
+    font-weight: 400;
+    background-color:rgb(231, 229, 227)!important;
+    color:#fc8c02!important;
+    margin: 2% 0;
+    font-family: 'Ubuntu', sans-serif, Roboto;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .booking-dropdown:hover {
+     border: 2px solid #f2a178;
+    background-color:#fc8c02!important;
+    color:rgb(246, 239, 239)!important;
+  }
+  .booking-dropdown:focus {
+    outline: none;
+    box-shadow: none;
+    color: #fc8c02!important;
+  }
+  .booking-dropdown-menu {
+    outline: none;
+    color: #fc8c02!important;
+  }
+  .booking-dropdown-item {
+    background-color: rgb(231, 229, 227)!important;
+    color: #fc8c02!important;
+  }
+  .booking-dropdown-item:hover {
+    background-color:#fc8c02!important;
+    color: rgb(231, 229, 227)!important;
+  }
+  .booking-dropdown-item:active {
+    background-color: rgb(231, 229, 227)!important;
+    color: #fc8c02!important;
+    
+  }
+  
+  @media (min-width: 768px) {
+    .booking-dropdown {
+      font-size: 1.2rem;
+    }
+  }
+  .table-display-message {
+    padding: 2% 0;
+    text-align: center;
+    font-size: 1.3rem;
+    color: white;
+    letter-spacing: 1px;
+  }
+  
+  .tables-display {
+    color: #f8f6f3!important;
+    background-color:#fc8c02!important;
+    border: 2px solid #f2a178;
+    margin: 10% 2%;
+    padding: 3% 5%;
+    border-radius: 15px;
+  }
+  
+  @media (min-width: 768px) {
+    .tables-display {
+      margin: 6% 2.5%;
+    }
+  }
+  .table-key {
+    padding-top: 1%;
+    padding-bottom: 4.5%;
+    color: rgb(231, 229, 227)!important;
+  }
+  
+  .available-tables {
+    color: white;
+    font-size: 1.2rem;
+    font-family: 'Ubuntu', sans-serif, Roboto;
+  }
+  
+  .table-container {
+    margin: 0 1%;
+  }
+  
+  .table {
+    background-color: #f2a178;
+    padding: 15px;
+    border-radius: 25px;
+    min-width: 80px;
+  }
+  
+  .table-row {
+    margin-bottom: 8px;
+  }
+  
+  .selectable-table:hover {
+    cursor: pointer;
+  }
+  .selectable-table:hover-row {
+    padding: 5px;
+  }
+  
+  .full-table {
+    background-color: white;
+    border: solid 2px white;
+    border-radius: 50%;
+    padding: 1px 10px;
+    margin: 3px;
+  }
+  
+  .empty-table {
+    background-color:#fc8c02;
+    border: solid 2px white;
+    border-radius: 50%;
+    padding: 1px 10px;
+    margin: 3px;
+  }
+  
+  .table-name {
+    color: white;
+    font-size: 0.8rem;
+    padding-top: 15px;
+    font-family:'Ubuntu', sans-serif, Roboto;
+  }
+  
+  .reservation-details-container {
+    padding: 0 4%;
+    padding-bottom: 5%;
+  }
+  
+  .reservation-details {
+    margin: 0 2%;
+    margin-bottom: 5%;
+  }
+  
+  @media (min-width: 768px) {
+    .reservation-details {
+      margin-bottom: 0;
+    }
+  }
+  .reservation-input:focus {
+    border-color:#eb550a;
+    box-shadow: 0 0;
+  }
+  
+  .reservation-error {
+    color:#eb550a;
+    font-size: 1.1rem;
+    padding-bottom: 3%;
+  }
+  
+  .thanks-header {
+    padding: 5% 0;
+    padding-top: 10%;
+    font-size: 2.5rem;
+  }
+  
+  .thanks-subtext {
+    font-size: 1.2rem;
+    padding: 2%;
+  }
+  
+  .thank-you-assento{
+    font-size: 4rem;
+    color: #eb550a;
+    padding-bottom: 8%;
+  }
+  
+  @media (min-width: 768px) {
+    .thanks-header {
+      font-size: 5.5rem;
+    }
+  
+    .thanks-subtext {
+      font-size: 2.2rem;
+    }
+  
+    .thank-you-assento {
+      font-size: 7rem;
+      padding-bottom: 4%;
+    }
+ 
+  }
+  
+  /*# sourceMappingURL=index.css.map */
+  
